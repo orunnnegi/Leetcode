@@ -9,7 +9,7 @@ public:
             int sum= 0;
             if(i==n-1){
                 sum= digits[i]+add;
-                if(sum>9){
+                if(digits[i]==9){
                     carry = true;
                     v[i]= 0;
                 }
