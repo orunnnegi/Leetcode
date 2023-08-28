@@ -8,7 +8,7 @@ public:
            else if(nums[i]==1) ++countOne;
            else ++countTwo;
        }
-       cout<<countZero<<" "<<countOne<<" "<<countTwo;
+    //    cout<<countZero<<" "<<countOne<<" "<<countTwo;
        for(int i= 0; i<n; i++){
            if(i<countZero){
                nums[i]=0;
