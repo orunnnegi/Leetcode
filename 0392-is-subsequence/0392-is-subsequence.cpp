@@ -4,7 +4,7 @@ public:
         int textsize= t.length(), patternsize= s.length();
         if(patternsize==0 && textsize!=0) return true;
         if(patternsize==0 && textsize==0) return true;
-        if(textsize==0 || patternsize==0) return false;
+        // if(textsize==0 || patternsize==0) return false;
         // cout<<textsize<<" "<<patternsize;
         
         // if(textsize==0) return false;
