@@ -2,17 +2,10 @@ class Solution {
 public:
     void transpose(vector<vector<int>> &v, int n, int m){
         for(int i= 0; i<n; ++i){
-            for(int j= i+1; j<n; ++j){
+            for(int j= i+1; j<m; ++j){
                 swap(v[i][j], v[j][i]);
             }
         }
-        // for(int i= 0; i<n; i++){
-        //     for(int j= 0; j<m; j++){
-        //         cout<<v[i][j]<<" ";
-        //     }
-        //     cout<<"\n";
-        // }
-        // return; 
     }
 
     void rotate(vector<vector<int>>& v) {
@@ -23,5 +16,6 @@ public:
                 swap(v[i][j], v[i][m-j-1]);
             }
         }
+        return;
     }
 };
