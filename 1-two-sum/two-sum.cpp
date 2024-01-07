@@ -20,7 +20,7 @@ public:
         unordered_map< int, int > mpp;
         for(int i= 0; i<n; i++){
             int remaining= target- nums[i];
-            cout<<remaining<<" ";
+            // cout<<remaining<<" ";
             if(mpp[remaining]){
                 return {mpp[remaining]-1, i};
             }
