@@ -14,24 +14,39 @@ public:
         //     }
         // }
         // return 0;
-        int n= nums.size();
-        int element= 0;
-        int count= 0;
-        for(int i= 0; i<n; i++){
-            if(count==0){
-                element= nums[i];
-                count= 1;
-                continue;
-            }
-            else{
-                if(element== nums[i]){
-                    count++;
-                }
-                else{
-                    count--;
-                }
-            }
+        // int n = nums.size();
+        // int element = 0;
+        // int count = 0;
+        
+        // for(int i = 0; i < n; i++)
+        // {
+        //     if(count==0){
+
+        //         element = nums[i];
+        //         count = 1;
+        //         continue;
+            
+        //     }
+        //     else
+        //     {
+        //         if(element == nums[i])
+        //         {
+        //             count++;
+        //         }
+        //         else
+        //         {
+        //             count--;
+        //         }
+        //     }
+        // }
+
+        // return element;
+        int size = nums.size();
+        if(size <= 2)
+        {
+            return nums[0];
         }
-        return element;
+        sort(nums.begin() , nums.end());
+        return nums[size/2];
     }
 };
