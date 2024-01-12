@@ -16,6 +16,7 @@ public:
 		else
 		{
 			signTillNow = 0;
+            return 0;
 		}
 		
 	}
