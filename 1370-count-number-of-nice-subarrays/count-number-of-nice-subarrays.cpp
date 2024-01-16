@@ -14,10 +14,6 @@ public:
 
             }
         }
-        for(auto it: nums)
-        {
-            cout << it << " ";
-        }
          unordered_map <int , int> mpp;
         int ans= 0;
         int prefixSum = 0;
