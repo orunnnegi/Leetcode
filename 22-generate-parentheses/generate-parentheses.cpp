@@ -1,29 +1,25 @@
 class Solution {
 public:
-    void PrintP(int open, int close, vector<string> &ans, string s, int n){
-        // as we are doing by recursion
-        // base condition
-        if(open == n && close == n){
-            ans.push_back(s);
+    void helper(int open , int close , vector<string> &generation, string s, int total)
+    {
+        if(open == total and close == total)
+        {
+            generation.push_back(s);
             return;
         }
-
-        if(open < n){
-            PrintP(open+1, close, ans, s + "(",n);
+        if(open < total)
+        {
+            helper(open + 1, close , generation, s+"(", total);
         }
-        if(close < n && close < open){
-            PrintP(open, close+1, ans, s+")",n);
+        if(close < total and close < open)
+        {
+            helper(open, close + 1, generation, s+")", total);
         }
     }
 
     vector<string> generateParenthesis(int n) {
-        // this is a pure recursion qs
-        // where we have to print all the well-formed parentheses just like printing
-        // all the subseq
-        // using backtracking 
-        vector<string> ans;
-        PrintP(0,0,ans,"",n);
-
-        return ans;
+        vector<string> generation;
+        helper(0, 0, generation, "", n);
+        return generation;
     }
 };
