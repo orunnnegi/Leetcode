@@ -5,7 +5,8 @@ public:
         sort(intervals.begin(), intervals.end());
         vector<vector<int>> newTime;
         // newTime.push_back(intervals[0]);
-        for(int i = 0; i < intervals.size();i++)
+        int size = intervals.size();
+        for(int i = 0; i < size ;i++)
         {
             if(newTime.empty() == true or newTime.back()[1] < intervals[i][0])
             {
