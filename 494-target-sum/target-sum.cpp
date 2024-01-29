@@ -1,11 +1,11 @@
 class Solution {
 public:
 
-    int helper(int ind , int size, int k, vector<int> &nums)
+    int helper(int ind, int size, vector<int> &nums, int target)
     {
         if(ind == size)
         {
-            if(k == 0)
+            if(target == 0)
             {
                 return 1;
             }
@@ -14,15 +14,15 @@ public:
                 return 0;
             }
         }
-        int plus = 0;
+        int add = 0;
         int minus = 0;
-        plus = helper(ind + 1, size, k - nums[ind], nums);
-        minus = helper(ind + 1, size, k + nums[ind], nums);
-        return plus + minus;
+        add = helper(ind + 1, size, nums, target - nums[ind]);
+        minus = helper(ind + 1, size, nums, target + nums[ind]);
+        return add + minus;
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
         int size = nums.size();
-        return helper(0, size, target , nums);
+        return helper(0, size, nums, target);
     }
 };
