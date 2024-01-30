@@ -33,7 +33,6 @@ void helper(stack<string> &st, string s)
         int size = tokens.size();
         for(int ind = 0; ind < size; ind++)
         {
-            // cout << tokens[ind] << " ";
             
             if(tokens[ind] == "+" or tokens[ind] == "-" or tokens[ind] == "*" or tokens[ind] == "/" )
             {
@@ -45,11 +44,6 @@ void helper(stack<string> &st, string s)
                 st.push(tokens[ind]);
             }
         }
-        // while(!st.empty())
-        // {
-        //     cout << st.top() << " ";
-        //     st.pop();
-        // }
         return stoi(st.top());
     }
 };
