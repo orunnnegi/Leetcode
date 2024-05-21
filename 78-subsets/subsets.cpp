@@ -2,7 +2,7 @@ class Solution {
 public:
     void subsets(int ind, int n, vector<int> &nums, vector<vector<int>> &result, vector<int> &subset)
     {
-        if(ind== n)
+        if(ind == n)
         {   
             result.push_back(subset);
             return;
