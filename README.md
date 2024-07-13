@@ -25,10 +25,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1293-three-consecutive-odds](https://github.com/orunnnegi/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1803-average-waiting-time](https://github.com/orunnnegi/Leetcode/tree/master/1803-average-waiting-time) |
+| [2846-robot-collisions](https://github.com/orunnnegi/Leetcode/tree/master/2846-robot-collisions) |
 ## Simulation
 |  |
 | ------- |
 | [1803-average-waiting-time](https://github.com/orunnnegi/Leetcode/tree/master/1803-average-waiting-time) |
+| [2846-robot-collisions](https://github.com/orunnnegi/Leetcode/tree/master/2846-robot-collisions) |
 ## String
 |  |
 | ------- |
@@ -39,8 +41,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/orunnnegi/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/orunnnegi/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2846-robot-collisions](https://github.com/orunnnegi/Leetcode/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
 | ------- |
 | [1818-maximum-score-from-removing-substrings](https://github.com/orunnnegi/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+## Sorting
+|  |
+| ------- |
+| [2846-robot-collisions](https://github.com/orunnnegi/Leetcode/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
