@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1207-delete-nodes-and-return-forest](https://github.com/orunnnegi/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/orunnnegi/Leetcode/tree/master/1293-three-consecutive-odds) |
+| [1511-count-number-of-teams](https://github.com/orunnnegi/Leetcode/tree/master/1511-count-number-of-teams) |
 | [1803-average-waiting-time](https://github.com/orunnnegi/Leetcode/tree/master/1803-average-waiting-time) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/orunnnegi/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2846-robot-collisions](https://github.com/orunnnegi/Leetcode/tree/master/2846-robot-collisions) |
@@ -82,4 +83,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/orunnnegi/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1511-count-number-of-teams](https://github.com/orunnnegi/Leetcode/tree/master/1511-count-number-of-teams) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1511-count-number-of-teams](https://github.com/orunnnegi/Leetcode/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
