@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/orunnnegi/Leetcode/tree/master/0189-rotate-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/orunnnegi/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/orunnnegi/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1511-count-number-of-teams](https://github.com/orunnnegi/Leetcode/tree/master/1511-count-number-of-teams) |
@@ -91,4 +92,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/orunnnegi/Leetcode/tree/master/1511-count-number-of-teams) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/orunnnegi/Leetcode/tree/master/0189-rotate-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/orunnnegi/Leetcode/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
